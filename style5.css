@@ -1,0 +1,32 @@
+*{
+    background-color:lightpink;
+}
+#head{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    justify-items: center;
+    text-align: center;
+}
+#par{
+    font-family:monospace;
+    font-size: 15px;
+    text-align: center;
+     
+}
+@media(max-width:600px){
+   *{ 
+    background-color:lightblue;
+}
+#head{
+    font-family: 'Artificial intelligence (AI) is a set of technologies that enable computers to perform a variety of advanced functions,'
+    'including the ability to see, understand and translate spoken and written language, analyze data, make recommendations, and more.';
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+}
+#par{
+    font-family: 'AI is the backbone of innovation in modern computing, unlocking value for individuals and businesses.';
+    font-size: 10px;
+    text-align: center;
+}
+}
